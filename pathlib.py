@@ -650,7 +650,7 @@ class PurePath(object):
                                                   self._parts) or '.'
             return self._str
             
-    def __unicode__(self)
+    def __unicode__(self):
         """For now this is just an alias to allow compatibility with 
         libraries like zipfile"""
         return self.__str__()
